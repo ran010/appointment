@@ -15,6 +15,5 @@ class User
 
   validates_presence_of :first_name, :last_name, :email
   validates_uniqueness_of :email, :case_sensitive => false
-  attr_accessor :first_name,:last_name, :email, :password, :password_confirmation, :remember_me
-
+  has_many :appointments
 end

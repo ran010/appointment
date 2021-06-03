@@ -1,0 +1,16 @@
+ul {
+    list-style-type: none;
+}
+.cursor-pointer{
+    cursor: pointer
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+a:hover, .cursor-pointer:hover {
+    color: #0d6efd;
+}
+.float-right {
+    float: right
+}
